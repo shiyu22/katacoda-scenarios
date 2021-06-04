@@ -31,6 +31,6 @@
   },
   "environment": {},
   "backend": {
-    "imageid": "ubuntu1804"
+    "imageid": "ubuntu:1804"
   }
 }
