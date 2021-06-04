@@ -1,5 +1,9 @@
 #### 3. Run mols-search-webclient docker
 
-`docker run -d -p 80:80 -e API_URL={API_for_post_5000} milvusbootcamp/mols-search-webclient:0.3.0`{{execute}}
+Click `+` to the right of the `Terminal`, then Select port to view on Host 1 with port 5000, then copy the link for API_URL parameter, for example: https://2886795296-5000-cykoria04.environments.katacoda.com.
 
-> Note: Please modify `API_for_post_5000` to the HTTP PORT 5000 for Host1 with `+` to select in the top layout.
+`docker run -d -p 80:80 -e API_URL= milvusbootcamp/mols-search-webclient:0.3.0`
+
+
+For example:
+`docker run -d -p 80:80 -e API_URL=https://2886795296-5000-cykoria04.environments.katacoda.com milvusbootcampmols-search-webclient:0.3.0`{{execute}}
